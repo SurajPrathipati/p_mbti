@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MBTI Quiz – Beginner</title>
+  <link rel="stylesheet" href="css/questionspage.css">
+</head>
+
+<body>
+
+<div class="container">
+  <h1>MBTI Beginner Quiz</h1>
+
+  <!-- Question 1 -->
+  <div class="question active">
+    <h3>1. After a long day, you feel recharged by:</h3>
+    <div class="option" onclick="answer('E2')">Going out and socializing with many people</div>
+    <div class="option" onclick="answer('E1I1')">Talking with a small group or close friends</div>
+    <div class="option" onclick="answer('I2')">Spending quiet time alone</div>
+    <div class="option" onclick="answer('E1I1')">Switching between alone time and social time</div>
+  </div>
+
+  <!-- Question 2 -->
+  <div class="question">
+    <h3>2. When learning something new, you prefer:</h3>
+    <div class="option" onclick="answer('S2')">Facts, details, and real-life examples</div>
+    <div class="option" onclick="answer('S1N1')">Mostly facts, but some imagination</div>
+    <div class="option" onclick="answer('N2')">Big ideas, patterns, and future possibilities</div>
+    <div class="option" onclick="answer('N1S1')">Learning by experimenting and exploring ideas</div>
+  </div>
+
+  <!-- Question 3 -->
+  <div class="question">
+    <h3>3. When making decisions, you usually:</h3>
+    <div class="option" onclick="answer('T2')">Choose what is logical and objective</div>
+    <div class="option" onclick="answer('T1F1')">Balance logic with people’s feelings</div>
+    <div class="option" onclick="answer('F2')">Choose what feels right emotionally</div>
+    <div class="option" onclick="answer('F1T1')">Decide based on values and personal beliefs</div>
+  </div>
+
+  <!-- Question 4 -->
+  <div class="question">
+    <h3>4. How do you approach plans and deadlines?</h3>
+    <div class="option" onclick="answer('J2')">Plan everything and finish early</div>
+    <div class="option" onclick="answer('J1P1')">Prefer a loose plan but some structure</div>
+    <div class="option" onclick="answer('P2')">Go with the flow and decide later</div>
+    <div class="option" onclick="answer('P1J1')">Change plans easily if something better comes up</div>
+  </div>
+
+  <!-- Question 5 -->
+  <div class="question">
+    <h3>5. In a group project, you usually:</h3>
+    <div class="option" onclick="answer('E1J1')">Lead the group and organize tasks</div>
+    <div class="option" onclick="answer('E1P1')">Contribute ideas and help coordinate</div>
+    <div class="option" onclick="answer('I1J1')">Work quietly and focus on your part</div>
+    <div class="option" onclick="answer('I1P1')">Adapt to what others need and stay flexible</div>
+  </div>
+
+  <div id="result"></div>
+</div>
+<script src="js/calculation.js"></script>
+<script src="js/value_addition.js"></script>
+
+</body>
+</html>

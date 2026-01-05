@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MBTI Quiz - Start</title>
+
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #b7e4c7, #74c69d);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      width: 350px;
+      border-radius: 15px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    h2 {
+      color: #2d6a4f;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      text-align: left;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 25px;
+      background: linear-gradient(135deg, #74c69d, #40916c);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h2>Start the MBTI Quiz</h2>
+
+    <!-- Form sends data to level.html -->
+    <form action="level.html" method="get">
+
+      <label for="name">Enter your name</label>
+      <input type="text" id="name" name="username" required>
+
+      <label for="age">Enter your age</label>
+      <input type="number" id="age" name="age" required>
+
+      <button type="submit">Next</button>
+    </form>
+  </div>
+
+</body>
+</html>

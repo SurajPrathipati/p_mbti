@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MBTI Quiz – Beginner</title>
+  <link rel="stylesheet" href="css/questionspage.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>MBTI Advanced Quiz</h1>
+
+  <!-- QUESTIONS START -->
+
+  <div class="question active">
+    <h3>1. At social gatherings, you usually:</h3>
+    <div class="option" onclick="answer('E',2)">Talk to many people and feel energized</div>
+    <div class="option" onclick="answer('E',1);answer('I',1)">Talk to a few people comfortably</div>
+    <div class="option" onclick="answer('I',2)">Mostly observe and listen</div>
+    <div class="option" onclick="answer('E',1);answer('I',1)">Switch between talking and observing</div>
+  </div>
+
+  <div class="question">
+    <h3>2. You feel most refreshed after:</h3>
+    <div class="option" onclick="answer('E',2)">Being with people</div>
+    <div class="option" onclick="answer('E',1);answer('I',1)">Mixing social and alone time</div>
+    <div class="option" onclick="answer('I',2)">Spending time alone</div>
+    <div class="option" onclick="answer('I',1);answer('E',1)">Quiet time with one person</div>
+  </div>
+
+  <div class="question">
+    <h3>3. In group discussions, you:</h3>
+    <div class="option" onclick="answer('E',2)">Speak freely and often</div>
+    <div class="option" onclick="answer('E',1);answer('I',1)">Speak when necessary</div>
+    <div class="option" onclick="answer('I',2)">Prefer listening</div>
+    <div class="option" onclick="answer('I',1);answer('E',1)">Think first, then speak</div>
+  </div>
+
+  <div class="question">
+    <h3>4. When meeting new people, you feel:</h3>
+    <div class="option" onclick="answer('E',2)">Excited and curious</div>
+    <div class="option" onclick="answer('E',1);answer('I',1)">Neutral but open</div>
+    <div class="option" onclick="answer('I',2)">Reserved at first</div>
+    <div class="option" onclick="answer('I',1);answer('E',1)">Comfortable after some time</div>
+  </div>
+
+  <div class="question">
+    <h3>5. You usually process thoughts by:</h3>
+    <div class="option" onclick="answer('E',2)">Talking them out</div>
+    <div class="option" onclick="answer('E',1);answer('I',1)">Talking and thinking equally</div>
+    <div class="option" onclick="answer('I',2)">Thinking privately</div>
+    <div class="option" onclick="answer('I',1);answer('E',1)">Writing or reflecting</div>
+  </div>
+
+  <!-- S vs N -->
+
+  <div class="question">
+    <h3>6. You prefer information that is:</h3>
+    <div class="option" onclick="answer('S',2)">Practical and factual</div>
+    <div class="option" onclick="answer('S',1);answer('N',1)">Mostly factual with ideas</div>
+    <div class="option" onclick="answer('N',2)">Abstract and future-focused</div>
+    <div class="option" onclick="answer('N',1);answer('S',1)">Imaginative and exploratory</div>
+  </div>
+
+  <div class="question">
+    <h3>7. When learning, you like:</h3>
+    <div class="option" onclick="answer('S',2)">Step-by-step methods</div>
+    <div class="option" onclick="answer('S',1);answer('N',1)">Structure with flexibility</div>
+    <div class="option" onclick="answer('N',2)">Concepts and meanings</div>
+    <div class="option" onclick="answer('N',1);answer('S',1)">Learning through discovery</div>
+  </div>
+
+  <div class="question">
+    <h3>8. You notice more:</h3>
+    <div class="option" onclick="answer('S',2)">Details and facts</div>
+    <div class="option" onclick="answer('S',1);answer('N',1)">Both details and patterns</div>
+    <div class="option" onclick="answer('N',2)">Patterns and connections</div>
+    <div class="option" onclick="answer('N',1);answer('S',1)">Ideas behind things</div>
+  </div>
+
+  <div class="question">
+    <h3>9. You trust your:</h3>
+    <div class="option" onclick="answer('S',2)">Past experience</div>
+    <div class="option" onclick="answer('S',1);answer('N',1)">Experience and intuition</div>
+    <div class="option" onclick="answer('N',2)">Intuition and insight</div>
+    <div class="option" onclick="answer('N',1);answer('S',1)">Imagination and ideas</div>
+  </div>
+
+  <div class="question">
+    <h3>10. You prefer tasks that are:</h3>
+    <div class="option" onclick="answer('S',2)">Realistic and useful</div>
+    <div class="option" onclick="answer('S',1);answer('N',1)">Useful but interesting</div>
+    <div class="option" onclick="answer('N',2)">Innovative and creative</div>
+    <div class="option" onclick="answer('N',1);answer('S',1)">Open-ended</div>
+  </div>
+    <div class="question">
+  <h3>11. When deciding, you rely more on:</h3>
+  <div class="option" onclick="answer('T',2)">Logic and facts</div>
+  <div class="option" onclick="answer('T',1);answer('F',1)">Logic with compassion</div>
+  <div class="option" onclick="answer('F',2)">Feelings and values</div>
+  <div class="option" onclick="answer('F',1);answer('T',1)">Personal beliefs</div>
+</div>
+
+<div class="question">
+  <h3>12. In arguments, you prefer to:</h3>
+  <div class="option" onclick="answer('T',2)">Be direct and objective</div>
+  <div class="option" onclick="answer('T',1);answer('F',1)">Understand both sides</div>
+  <div class="option" onclick="answer('F',2)">Maintain harmony</div>
+  <div class="option" onclick="answer('F',1);answer('T',1)">Protect emotions</div>
+</div>
+
+<div class="question">
+  <h3>13. You feel more uncomfortable when people are:</h3>
+  <div class="option" onclick="answer('T',2)">Illogical</div>
+  <div class="option" onclick="answer('T',1);answer('F',1)">Unfair</div>
+  <div class="option" onclick="answer('F',2)">Unkind</div>
+  <div class="option" onclick="answer('F',1);answer('T',1)">Insensitive</div>
+</div>
+
+<div class="question">
+  <h3>14. You value more in others:</h3>
+  <div class="option" onclick="answer('T',2)">Honesty</div>
+  <div class="option" onclick="answer('T',1);answer('F',1)">Fairness and care</div>
+  <div class="option" onclick="answer('F',2)">Kindness</div>
+  <div class="option" onclick="answer('F',1);answer('T',1)">Emotional understanding</div>
+</div>
+
+<div class="question">
+  <h3>15. Feedback should be:</h3>
+  <div class="option" onclick="answer('T',2)">Clear and honest</div>
+  <div class="option" onclick="answer('T',1);answer('F',1)">Honest but gentle</div>
+  <div class="option" onclick="answer('F',2)">Encouraging and kind</div>
+  <div class="option" onclick="answer('F',1);answer('T',1)">Supportive</div>
+</div>
+<div class="question">
+  <h3>16. Your daily life is mostly:</h3>
+  <div class="option" onclick="answer('J',2)">Planned and organized</div>
+  <div class="option" onclick="answer('J',1);answer('P',1)">Planned but flexible</div>
+  <div class="option" onclick="answer('P',2)">Spontaneous</div>
+  <div class="option" onclick="answer('P',1);answer('J',1)">Flexible with some structure</div>
+</div>
+
+<div class="question">
+  <h3>17. When facing deadlines, you:</h3>
+  <div class="option" onclick="answer('J',2)">Finish early</div>
+  <div class="option" onclick="answer('J',1);answer('P',1)">Work steadily</div>
+  <div class="option" onclick="answer('P',2)">Rush near the end</div>
+  <div class="option" onclick="answer('P',1);answer('J',1)">Adjust plans as needed</div>
+</div>
+
+<div class="question">
+  <h3>18. Your room or workspace is:</h3>
+  <div class="option" onclick="answer('J',2)">Neat and ordered</div>
+  <div class="option" onclick="answer('J',1);answer('P',1)">Mostly organized</div>
+  <div class="option" onclick="answer('P',2)">Messy but functional</div>
+  <div class="option" onclick="answer('P',1);answer('J',1)">Changes often</div>
+</div>
+
+<div class="question">
+  <h3>19. You prefer decisions to be:</h3>
+  <div class="option" onclick="answer('J',2)">Final and clear</div>
+  <div class="option" onclick="answer('J',1);answer('P',1)">Mostly decided</div>
+  <div class="option" onclick="answer('P',2)">Open and flexible</div>
+  <div class="option" onclick="answer('P',1);answer('J',1)">Adjustable</div>
+</div>
+
+<div class="question">
+  <h3>20. You feel better when life is:</h3>
+  <div class="option" onclick="answer('J',2)">Structured and predictable</div>
+  <div class="option" onclick="answer('J',1);answer('P',1)">Balanced</div>
+  <div class="option" onclick="answer('P',2)">Free and spontaneous</div>
+  <div class="option" onclick="answer('P',1);answer('J',1)">Open to change</div>
+</div>
+
+  <!-- RESULT -->
+  <div id="result"></div>
+
+</div>
+    <script src="js/calculation.js"></script>
+    <script src="js/value_addition.js">
+</script>
+
+</body>
+</html>

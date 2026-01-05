@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MBTI Personality Quiz</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #ebdddb, #f0b4e7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #dee7bc;
+      width: 420px;
+      padding: 40px 30px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1 {
+      color: #191a02;
+      margin-bottom: 15px;
+      font-size: 28px;
+    }
+
+    p {
+      color: #2c1919f7;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 14px;
+      font-size: 16px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-bottom: 15px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-quiz {
+      background: linear-gradient(135deg, #a97b9c, #f4b1e6);
+      color: rgb(20, 1, 1);
+    }
+
+    .btn-info {
+      background-color: #eae9da;
+      color: #333;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .emoji {
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+        <h1>MBTI Personality Quiz</h1>
+    <p>
+      take a little quiz about yourself and answer a few questions honestly to find out your MBTI personality type.
+      
+    </p>
+
+    <a href="quiz.html">
+      <button class="btn btn-quiz">Take the Quiz>></button>
+    </a>
+
+    <a href="about.html">
+      <button class="btn btn-info">wanna learn more about MBTI?</button>
+    </a>
+  </div>
+
+</body>
+</html>

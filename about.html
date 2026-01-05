@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>What is MBTI?</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background-color: #d7dcf5;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1f2933, #2d1e3e,#0f172a);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    section {
+      padding: 3px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .intro h2 {
+      color: #5a3ea1;
+      margin-bottom: 15px;
+    }
+
+    .intro p {
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    .types {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .type-card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .type-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .type-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .type-content {
+      padding: 20px;
+    }
+
+    .type-content h3 {
+      color: #5a3ea1;
+      margin-bottom: 10px;
+    }
+
+    .type-content p {
+      font-size: 14.5px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #eee;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>What is MBTI?</h1>
+    <p>
+      The Myers-Briggs Type Indicator (MBTI) helps people understand their
+      personality, strengths, and how they interact with the world.
+    </p>
+  </header>
+
+  <section class="intro">
+    <h2>Understanding MBTI</h2>
+    <p>
+      MBTI is based on four key personality dimensions:
+      <br>
+      <strong>Introversion (I) / Extraversion (E)</strong> – Where you get energy  
+      <br>
+      <strong>Sensing (S) / Intuition (N)</strong> – How you process information  
+      <br>
+      <strong>Thinking (T) / Feeling (F)</strong> – How you make decisions  
+      <br>
+      <strong>Judging (J) / Perceiving (P)</strong> – How you approach life
+    </p>
+  </section>
+
+  <section>
+    <h2 style="text-align:center; color:#5a3ea1; margin-bottom:30px;">
+      The 16 Personality Types
+    </h2>
+
+    <div class="types">
+
+      <!-- ISTJ -->
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/4a/c9/c9/4ac9c9fb2b9be3bee7d3fb126164d8b6.jpg" alt="ISTJ Personality">
+        <div class="type-content">
+          <h3>ISTJ – The Inspector</h3>
+          <p>Practical, responsible, and detail-oriented. ISTJs value order,
+          rules, and reliability.</p>
+        </div>
+      </div>
+
+      <!-- ISFJ -->
+      <div class="type-card">
+        <img src="https://i.pinimg.com/1200x/03/49/61/0349611bad7a8c4026a4d9f6ec9dc9b2.jpg" alt="ISFJ Personality">
+        <div class="type-content">
+          <h3>ISFJ – The Protector</h3>
+          <p>Caring, loyal, and dependable. ISFJs focus on helping others and
+          preserving traditions.</p>
+        </div>
+      </div>
+
+      <!-- INFJ -->
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/51/39/63/51396370164e13db55252a54c81b1622.jpg" alt="INFJ Personality">
+        <div class="type-content">
+          <h3>INFJ – The Advocate</h3>
+          <p>Insightful, idealistic, and creative. INFJs seek deep meaning and
+          purpose.</p>
+        </div>
+      </div>
+
+      <!-- INTJ -->
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/eb/aa/c1/ebaac14fb1e1cf9f301080b7efd446eb.jpg" alt="INTJ Personality">
+        <div class="type-content">
+          <h3>INTJ – The Architect</h3>
+          <p>Strategic, logical, and independent. INTJs love planning and
+          long-term vision.</p>
+        </div>
+      </div>
+
+      <!-- Continue same pattern -->
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/dd/f2/f6/ddf2f6d054aca37c8459caa7e0d8199c.jpg">
+        <div class="type-content">
+          <h3>ISTP – The Virtuoso</h3>
+          <p>Curious, adaptable, and hands-on problem solvers.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/6a/78/ce/6a78cedd1f0eb584991d3f6ee61c0c06.jpg">
+        <div class="type-content">
+          <h3>ISFP – The Artist</h3>
+          <p>Gentle, creative, and deeply in tune with beauty and emotions.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/4f/9e/de/4f9edea55ccded44fbf641ec041788f5.jpg">
+        <div class="type-content">
+          <h3>INFP – The Mediator</h3>
+          <p>Idealistic, empathetic, and driven by strong personal values.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/3a/68/1f/3a681f6c8cca54d1cf2c863ed7cb0608.jpg">
+        <div class="type-content">
+          <h3>INTP – The Thinker</h3>
+          <p>Analytical, imaginative, and fascinated by ideas and theories.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/1f/af/4f/1faf4f3ebd24832b6f738df45ff44738.jpg">
+        <div class="type-content">
+          <h3>ESTP – The Dynamo</h3>
+          <p>Energetic, bold, and action-oriented risk takers.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/ae/23/d5/ae23d5de2ff3e7bc411a5c092f2e6a1e.jpg">
+        <div class="type-content">
+          <h3>ESFP – The Entertainer</h3>
+          <p>Fun-loving, spontaneous, and enthusiastic people persons.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/cf/c0/f3/cfc0f3ac606c9b1af24119e42234eb24.jpg">
+        <div class="type-content">
+          <h3>ENFP – The Campaigner</h3>
+          <p>Creative, optimistic, and full of exciting ideas.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/ff/0f/d0/ff0fd08ebdca708a868b13cd723c5e57.jpg">
+        <div class="type-content">
+          <h3>ENTP – The Debater</h3>
+          <p>Quick-witted, innovative, and loves exploring possibilities.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/c6/b1/0c/c6b10cc57c483fcdaac114f2f072a9f8.jpg">
+        <div class="type-content">
+          <h3>ESTJ – The Executive</h3>
+          <p>Organized, confident, and natural leaders.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/21/0f/64/210f64253162445149f34ad151482f87.jpg">
+        <div class="type-content">
+          <h3>ESFJ – The Consul</h3>
+          <p>Warm, social, and dedicated to harmony and cooperation.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/37/21/dc/3721dcf8df5bc5fbb470d3966e1e5cec.jpg">
+        <div class="type-content">
+          <h3>ENFJ – The Protagonist</h3>
+          <p>Charismatic, inspiring, and deeply empathetic leaders.</p>
+        </div>
+      </div>
+
+      <div class="type-card">
+        <img src="https://i.pinimg.com/736x/8e/19/79/8e1979a4604039a03831b531069237b1.jpg">
+        <div class="type-content">
+          <h3>ENTJ – The Commander</h3>
+          <p>Bold, strategic, and excellent at organizing people.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>MBTI Personality Project © 2026</p>
+  </footer>
+
+</body>
+</html>

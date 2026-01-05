@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MBTI Quiz – Intermediate</title>
+  <link rel="stylesheet" href="css/questionspage.css">
+</head>
+
+<body>
+
+<div class="container">
+  <h1>MBTI Intermediate Quiz</h1>
+
+  <!-- QUESTIONS -->
+  <div class="question active">
+    <h3>1. At social events, you usually:</h3>
+    <div class="option" onclick="answer('E2')">Talk to many people and feel energized</div>
+    <div class="option" onclick="answer('E1I1')">Talk to a few people you know well</div>
+    <div class="option" onclick="answer('I2')">Observe more than speak</div>
+    <div class="option" onclick="answer('E1I1')">Move between talking and observing</div>
+  </div>
+
+  <div class="question">
+    <h3>2. You recharge best by:</h3>
+    <div class="option" onclick="answer('E2')">Being around people</div>
+    <div class="option" onclick="answer('E1I1')">Mixing social time with alone time</div>
+    <div class="option" onclick="answer('I2')">Spending time alone</div>
+    <div class="option" onclick="answer('I1E1')">Quiet activities with one close person</div>
+  </div>
+
+  <div class="question">
+    <h3>3. In class or meetings, you prefer to:</h3>
+    <div class="option" onclick="answer('E2')">Speak up and share ideas</div>
+    <div class="option" onclick="answer('E1I1')">Speak when necessary</div>
+    <div class="option" onclick="answer('I2')">Listen carefully and reflect</div>
+    <div class="option" onclick="answer('I1E1')">Write or think before speaking</div>
+  </div>
+
+  <div class="question">
+    <h3>4. You trust information more when it is:</h3>
+    <div class="option" onclick="answer('S2')">Proven by facts and experience</div>
+    <div class="option" onclick="answer('S1N1')">Mostly factual but with some ideas</div>
+    <div class="option" onclick="answer('N2')">Based on patterns and possibilities</div>
+    <div class="option" onclick="answer('N1S1')">Creative and open to interpretation</div>
+  </div>
+
+  <div class="question">
+    <h3>5. When solving problems, you focus on:</h3>
+    <div class="option" onclick="answer('S2')">Practical steps and details</div>
+    <div class="option" onclick="answer('S1N1')">Details first, then ideas</div>
+    <div class="option" onclick="answer('N2')">Big picture and future outcomes</div>
+    <div class="option" onclick="answer('N1S1')">Exploring multiple possibilities</div>
+  </div>
+
+  <div class="question">
+    <h3>6. You prefer instructions that are:</h3>
+    <div class="option" onclick="answer('S2')">Clear and specific</div>
+    <div class="option" onclick="answer('S1N1')">Somewhat detailed but flexible</div>
+    <div class="option" onclick="answer('N2')">Open-ended and conceptual</div>
+    <div class="option" onclick="answer('N1S1')">Visual or idea-based</div>
+  </div>
+
+  <div class="question">
+    <h3>7. When making decisions, you value more:</h3>
+    <div class="option" onclick="answer('T2')">Logic and fairness</div>
+    <div class="option" onclick="answer('T1F1')">Logic with empathy</div>
+    <div class="option" onclick="answer('F2')">Feelings and harmony</div>
+    <div class="option" onclick="answer('F1T1')">Personal values</div>
+  </div>
+
+  <div class="question">
+    <h3>8. During conflicts, you usually:</h3>
+    <div class="option" onclick="answer('T2')">Stay objective and direct</div>
+    <div class="option" onclick="answer('T1F1')">Try to balance both sides</div>
+    <div class="option" onclick="answer('F2')">Avoid hurting feelings</div>
+    <div class="option" onclick="answer('F1T1')">Support emotional understanding</div>
+  </div>
+
+  <div class="question">
+    <h3>9. You feel more satisfied when you are:</h3>
+    <div class="option" onclick="answer('T2')">Right and consistent</div>
+    <div class="option" onclick="answer('T1F1')">Fair to everyone</div>
+    <div class="option" onclick="answer('F2')">Kind and caring</div>
+    <div class="option" onclick="answer('F1T1')">Emotionally honest</div>
+  </div>
+
+  <div class="question">
+    <h3>10. Your approach to deadlines is:</h3>
+    <div class="option" onclick="answer('J2')">Finish early</div>
+    <div class="option" onclick="answer('J1P1')">Plan but adjust if needed</div>
+    <div class="option" onclick="answer('P2')">Work best under pressure</div>
+    <div class="option" onclick="answer('P1J1')">Change plans easily</div>
+  </div>
+
+  <div class="question">
+    <h3>11. Your workspace is usually:</h3>
+    <div class="option" onclick="answer('J2')">Organized and structured</div>
+    <div class="option" onclick="answer('J1P1')">Mostly organized</div>
+    <div class="option" onclick="answer('P2')">Flexible or messy</div>
+    <div class="option" onclick="answer('P1J1')">Changes based on mood</div>
+  </div>
+
+  <div class="question">
+    <h3>12. You prefer life to be:</h3>
+    <div class="option" onclick="answer('J2')">Planned and predictable</div>
+    <div class="option" onclick="answer('J1P1')">Balanced between plan and freedom</div>
+    <div class="option" onclick="answer('P2')">Spontaneous and flexible</div>
+    <div class="option" onclick="answer('P1J1')">Open to change</div>
+  </div>
+
+  <div id="result"></div>
+</div>
+<script src="js/calculation.js"></script>
+<script src="js/value_addition.js"></script>
+</body>
+</html>
